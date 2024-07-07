@@ -1,0 +1,56 @@
+.student-by-fees-class-container {
+    margin: 8em 1em 8em 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.student-class-list-table-container {
+    margin: 0 0 0 0;
+    border: 1px solid grey;
+}
+
+.student-by-fee-filter-button  {
+    height: 4em;
+    padding: 1em 2em;
+    cursor: pointer;
+    border: 1px solid #0077b6;
+    color: white;
+    background-color: #0077b6;
+    border-radius: 25px;
+    box-shadow: (99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: 0.5em 0.1em;  
+    font-weight: bolder;
+}
+
+.downloadbtn-by-fees {
+    height: 4em;
+    padding: 1em 2em;
+    cursor: pointer;
+    border: 1px solid #4CAF50;
+    color: white;
+    background-color: #4CAF50;
+    border-radius: 25px;
+    box-shadow: (99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: 0.5em 0.5em;  
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+
+.export-button-student-class-fees {
+    display: flex;
+    justify-content:flex-end;
+    flex-wrap: wrap;
+    margin-right: 1%;
+}
+
+
+.class-id-by-fees{
+    align-items: center;
+    text-align: center;
+    margin: 0 2em;
+    color: #0077b6;
+    letter-spacing: 1px;
+    text-decoration:underline
+}

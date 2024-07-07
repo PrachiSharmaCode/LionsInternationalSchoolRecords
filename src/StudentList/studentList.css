@@ -1,0 +1,120 @@
+.student-list-container {
+    margin: 10em 1em 8em 1em;
+}
+
+.student-list-table-conatiner {
+    background-color: rgba(204, 204, 204, 0.5);
+    box-shadow: rgba(99, 99, 99, 0.7) 0px 2px 8px 0px;
+}
+
+.student-table-button {
+    margin: 0 3% 3% 3%;
+    height: 4em;
+    width: 8em;
+    cursor: pointer;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border: 1px solid #023e8a;
+    color: #023e8a;
+    background-color: #f2b02e;
+}
+
+.student-table-button:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.student-table-button:active {
+    transform: scale(.98);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.student-list-filter-button {
+    height: 4em;
+    padding: 1em 2em;
+    cursor: pointer;
+    border: 1px solid #0077b6;
+    color: white;
+    background-color: #0077b6;
+    border-radius: 25px;
+    box-shadow: (99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: 0.5em 0.1em;  
+    font-weight: bolder;
+}
+
+.downloadbtn {
+    height: 4em;
+    padding: 1em 2em;
+    cursor: pointer;
+    border: 1px solid #4CAF50;
+    color: white;
+    background-color: #4CAF50;
+    border-radius: 25px;
+    box-shadow: (99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: 0.5em 0.5em;  
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.export-button-student-list {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-right: 1%;
+}
+
+.student-list-intallment-info {
+    text-align: left;
+}
+
+@media (max-width: 1400px) {
+    .student-list-container {
+        margin: 8em 1em 6em 1em;
+    }
+
+    .student-table-button {
+        height: 3em;
+        width: 7em;
+    }
+}
+
+@media (max-width: 992px) {
+    .student-table-button {
+        height: 3.5em;
+        width: 7em;
+    }
+}
+
+@media (max-width: 768px) {
+    .student-list-container {
+        margin: 8em 1em 4em 1em;
+    }
+
+    .student-table-button {
+        height: 3em;
+        width: 6em;
+    }
+}
+
+@media (max-width: 576px) {
+    .student-list-container {
+        margin: 8em 1em 3em 1em;
+    }
+
+    .student-table-button {
+        height: 2.5em;
+        width: 5em;
+    }
+}
+
+@media (max-width: 400px) {
+    .student-list-container {
+        margin: 8em 1em 2em 1em;
+    }
+
+    .student-table-button {
+        height: 2em;
+        width: 4em;
+    }
+}

@@ -1,0 +1,54 @@
+.column-selection {
+    position: absolute;
+    right: 1em;
+    background-color: white;
+    width: 80%;
+    padding: 1em;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 5px;
+}
+
+.checklist-col-by-fees {
+    margin: 1em;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.close-filter-by-fees {
+    background-color: #4CAF50;
+    margin-top: 0.5em;
+    height: 4em;
+    width: 10em;
+    color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bolder;
+    align-items: left;
+    font-size: 14px;
+    padding: 1em 2em;
+    margin: 0.5em;
+}
+
+.cancel-filter-by-fees {
+    background-color: #f26419;
+    margin-top: 0.5em;
+    height: 4em;
+    width: 10em;
+    color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bolder;
+    align-items: left;
+    font-size: 14px;
+    margin: 0.5em;
+}
+
+.col-checklist-by-fees {
+    padding: 1em;
+    width: 12em;
+}

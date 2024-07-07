@@ -1,0 +1,77 @@
+.student-by-class-container {
+    margin: 8em 1em 8em 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.student-class-list-table-conatiner{
+    background-color: rgba(204, 204, 204, 0.5);
+    box-shadow: rgba(99, 99, 99, 0.7) 0px 2px 8px 0px;
+}
+
+.class-table-button {
+    margin: 0 3% 3% 3%;
+    height: 4em;
+    width: 8em;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.class-table-button:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.class-table-button:active { 
+    transform: scale(.98); 
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+} 
+
+.export-button-student-class-list {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-right: 1%;
+}
+
+.student-class-list-intallment-info{
+    text-align: left;
+}
+
+.student-by-class-filter-button {
+    height: 4em;
+    padding: 1em 2em;
+    cursor: pointer;
+    border: 1px solid #0077b6;
+    color: white;
+    background-color: #0077b6;
+    border-radius: 25px;
+    box-shadow: (99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: 0.5em 0.1em;  
+    font-weight: bolder;
+}
+
+.downloadbtn-by-class {
+    height: 4em;
+    padding: 1em 2em;
+    cursor: pointer;
+    border: 1px solid #4CAF50;
+    color: white;
+    background-color: #4CAF50;
+    border-radius: 25px;
+    box-shadow: (99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: 0.5em 0.5em;  
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+
+.class-id-by-class{
+    align-items: center;
+    text-align: center;
+    margin: 0 2em;
+    color: #0077b6;
+    letter-spacing: 1px;
+    text-decoration:underline;
+}
